@@ -1,4 +1,4 @@
-FROM tomcat:8-jre11
+FROM tomcat:jre21-temurin-noble
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
