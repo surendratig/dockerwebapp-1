@@ -1,4 +1,4 @@
-FROM mysql:5.7.25
+FROM mysql:8.0.43
 
 ENV MYSQL_ROOT_PASSWORD="devopspassword"
 ENV MYSQL_DATABASE="accounts"
